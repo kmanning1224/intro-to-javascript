@@ -108,7 +108,7 @@ function runEnter() {
     
     table.html("");
 
-    // d3.event.preventDefault();
+    d3.event.preventDefault();
 
     var inputElement = d3.select("#datetime");
 
