@@ -24,14 +24,14 @@ var form = d3.select('#form-group')
 
 //Event Handlers
 button.on("click", runEnter);
-form.on("submit",runEnter);
+form.on("submit", runEnter);
 
 //Even handler functions
 function runEnter() {
     
     table.html("");
 
-    // d3.event.preventDefault();
+    d3.event.preventDefault();
 
     var inputElement = d3.select("#datetime");
 
